@@ -48,7 +48,7 @@
   } ],
   "tokenCount": 2914,
   "referencedPlaybooks": [ "NAI_MODULO_PERFIL_NEGOCIO" ],
-  "referencedTools": [ "retrieve_match (2025-02-14 12:30:50)", "retrieve_gap (2025-02-14 12:30:50)", "persistir_dados_cv (2025-02-14 12:30:50)" ],
+  "referencedTools": [ "retrieve_match (2025-02-14 12:30:50)", "retrieve_gap (2025-02-14 12:30:50)", "persistir_dados_cv_teste_juan" ],
   "instruction": {
     "steps": [ {
       "text": "# Modulo: Primeira Interação com o Usuário",
@@ -200,7 +200,7 @@
         "steps": [ {
           "text": "Configure os parâmetros user_id e resumo_estruturado como Output Parameters."
         }, {
-          "text": "Envie uma requisição para o TOOL ${TOOL:persistir_dados_cv (2025-02-14 12:30:50)}",
+          "text": "Envie uma requisição para o TOOL ${TOOL:persistir_dados_cv_teste_juan}",
           "steps": [ {
             "text": "Input Parameters:",
             "steps": [ {

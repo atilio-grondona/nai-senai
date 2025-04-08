@@ -42,7 +42,7 @@
     }
   }, {
     "toolUse": {
-      "tool": "persistir_dados_cv (2025-02-14 12:30:50)",
+      "tool": "persistir_dados_cv_teste_juan",
       "action": "create_json_update_user_data",
       "inputActionParameters": {
         "requestBody": {

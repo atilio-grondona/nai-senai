@@ -1,6 +1,6 @@
 {
   "name": "d4b9739f-d225-4bfd-b15a-0fcbc4760f55",
-  "displayName": "persistir_dados_cv (2025-02-14 12:30:50)",
+  "displayName": "persistir_dados_cv_teste_juan",
   "description": "Chama a função para salvar os dados do resumo estruturado no banco de dados passando o resumo_estruturado em uma request. Apos chamar a função retorne para o playbook.",
   "openApiSpec": {
   
