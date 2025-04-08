@@ -1,0 +1,49 @@
+{
+  "name": "9d82a712-2e3d-4b1b-80a9-e98586f61d96",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "Vamos fazer seu perfil profissional! Como prefere, podemos fazer perguntas organizadas ou simplesmente conversar sobre sua história?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "quero saber meu match de carreira"
+    }
+  }, {
+    "toolUse": {
+      "tool": "retrieve_match (2025-02-14 12:30:50)",
+      "action": "retrieve_match_info",
+      "inputActionParameters": {
+        "requestBody": {
+          "user_id": "d3d0fea5-9cd9-4a9d-a39b-bb62c576a64a"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "carreer_name": "Produção Alimentícia",
+          "profession_name": "Desenvolvedor Mobile",
+          "vacancy_name": "Desenvolvedor Fullstack Pleno/Senior"
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "seu match de carreira é Produção Alimentícia"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "o usuário já havia solicitado fazer o perfil e já aconteceu a recuperação do user_id que esta no contexto da conversa",
+    "actionParameters": {
+    
+    }
+  },
+  "playbookOutput": {
+    "executionSummary": "o usuário pediu o match e a ferramenta retornou o match de carreira dele",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "exemplo match",
+  "tokenCount": 296,
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "pt-br"
+}

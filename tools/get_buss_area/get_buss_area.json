@@ -1,0 +1,9 @@
+{
+  "name": "12fdb1f4-2238-4a50-ac2d-9c0021be40c4",
+  "displayName": "get_buss_area",
+  "description": "- Esta ferramenta tem como objetivo principal verificar se uma determinada área de negócio está cadastrada na base de dados do SENAI, ou não.\n- A ferramenta utiliza utiliza uma API que recebe como parâmetro de entrada o nome da área de negócio (\"buss_area_name\") e verifica se a área de negócio está cadastrada na base de dados.\n- A resposta da API pode ser uma de três tipos possíveis a saber:\n    - Tipo 1: Uma lista vazia, por exemplo \"[]\". Neste caso, a área de negócio não pôde ser verificada ou não está cadastrada na base de dados;\n    - Tipo 2: Um único número inteiro, por exemplo \"5\". Neste caso, a área de negócio está cadastrada na base de dados e o número inteiro retornado representa o respectivo código de identificação unívoca da área de negócio cadastrada. Copie este número para o parâmetro \"career_id\" para que ele possa ser utilizado mais tarde;\n    - Tipo 3: Uma lista contendo vários \"strings\", por exemplo \"['Proteção e Reabilitação de Ecossistema','Sistemas de Energia','Desenvolvimento de Sistemas']\". Neste caso, os strings representam os nomes de várias áreas de negócio parecidos, mas não exatamente iguais, ao nome informado no parâmetro de entrada \"buss_area_name\". Sendo assim, liste os \"strings\" (nomes das áreas de negocio parecidos) e peça ao usuário que escolha um destes.",
+  "openApiSpec": {
+    "ignoreUnknownFields": true
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

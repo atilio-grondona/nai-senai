@@ -1,0 +1,54 @@
+openapi: 3.0.1
+info:
+  title: nai_retrieve-user-id API
+  description: >-
+    API para retrieve-user-id fornecido.
+  version: 1.0.0
+servers:
+  - url: 'https://us-central1-xertica-gen-ai-br.cloudfunctions.net'
+paths:
+  /cni-retrieve-user-id:
+    post:
+      summary: Processa o session_id do Dialogflow
+      operationId: create_json_update_user_data
+      parameters:
+        - name: sessionId
+          in: header
+          description: Dialogflow session id
+          required: false
+          schema:
+            $ref: "@dialogflow/sessionId"
+      requestBody:
+        description: Dados adicionais para processamento
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                dados_extras:
+                  type: string
+      responses:
+        '200':
+          description: Session ID processado com sucesso
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  user_id:
+                    type: string
+                    example: "91011ac5-325c-40ad-8773-c26e3765e663"
+                  transcript:
+                    type: string
+                    example: "This is the transcript text."
+        '400':
+          description: Erro no processamento
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  erro:
+                    type: string
+                    example: Erro no processamento

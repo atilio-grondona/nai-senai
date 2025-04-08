@@ -1,0 +1,43 @@
+{
+  "name": "4492ee05-dedc-4416-a4f3-b5d772730f7f",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "Perfeito, Paulo! 😊  Seus dados foram salvos com sucesso! 🎉  Agora, você deseja criar um perfil de negócios? 🚀\n\n"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Sim"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "NAI_MODULO_PERFIL_NEGOCIO",
+      "playbookInput": {
+        "precedingConversationSummary": "O usuário manifestou o interesse em criar um perfil de negocio",
+        "actionParameters": {
+        
+        }
+      },
+      "playbookOutput": {
+        "actionParameters": {
+        
+        }
+      }
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "O agente acabou de realizar a persistencia dos dados",
+    "actionParameters": {
+    
+    }
+  },
+  "playbookOutput": {
+    "executionSummary": "Ao manifestar interesse em criar o perfil de negocio, o agente direcionou o usario para o playbook correto",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Perfil de negocios_transição",
+  "tokenCount": 224,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "pt-br"
+}

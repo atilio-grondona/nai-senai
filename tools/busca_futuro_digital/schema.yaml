@@ -1,0 +1,66 @@
+openapi: 3.0.3
+info:
+  title: Futuro Digital User Search API
+  description: API para buscar cursos baseados em palavras-chave e processar informações do usuário.
+  version: 1.0.0
+servers:
+  - url: https://us-central1-xertica-gen-ai-br.cloudfunctions.net
+    description: Endpoint principal
+paths:
+  /futuro_digital_user_search:
+    post:
+      summary: Busca cursos baseados em palavras-chave ou informações do usuário
+      description: Endpoint que processa palavras-chave fornecidas e retorna cursos relevantes.
+      operationId: futuroDigitalUserSearch
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id:
+                  type: string
+                  description: ID do usuário para busca personalizada (opcional).
+                  example: "12345"
+                text:
+                  type: string
+                  description: Texto contendo palavras-chave para busca semântica.
+                  example: "Quero aprender front-end e Python"
+              required:
+                - text
+      responses:
+        '200':
+          description: Lista de cursos relevantes
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  courses:
+                    type: array
+                    items:
+                      type: array
+                      items:
+                        type: string
+        '400':
+          description: Erro de requisição inválida
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Erro interno no servidor
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+components:
+  schemas:
+    ErrorResponse:
+      type: object
+      properties:
+        message:
+          type: string
+          description: Mensagem de erro
+          example: "Erro interno no servidor."

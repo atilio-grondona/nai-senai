@@ -1,0 +1,9 @@
+{
+  "name": "c05a4422-e0ca-4625-ac6f-95569db92345",
+  "displayName": "retrieve_gap (2025-02-14 12:30:50)",
+  "description": "Essa função consulta o gap",
+  "openApiSpec": {
+    "ignoreUnknownFields": true
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

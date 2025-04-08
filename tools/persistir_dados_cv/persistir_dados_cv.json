@@ -1,0 +1,22 @@
+{
+  "name": "78f323da-eaa7-47c2-865e-0559c848bb64",
+  "displayName": "persistir_dados_cv",
+  "description": "Chama a função para salvar os dados do resumo estruturado no banco de dados passando o resumo_estruturado em uma request. Apos chamar a função retorne para o playbook.",
+  "dataStoreSpec": {
+    "models": {
+      "summarizationModel": {
+      
+      }
+    },
+    "fallbackPrompt": {
+    
+    },
+    "groundingSettings": {
+    
+    },
+    "payloadSettings": {
+    
+    }
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

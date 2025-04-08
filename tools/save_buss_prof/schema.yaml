@@ -1,0 +1,65 @@
+openapi: 3.0.1
+info:
+  title: NAI - Salva perfil de negócio do usuário
+  description: Salva perfil de negócio do usuário
+  version: 1.0.0
+servers:
+  - url: 'https://us-central1-xertica-gen-ai-br.cloudfunctions.net/senai-save-business-profile'
+paths:
+  /execute:
+    post:
+      summary: Salva o perfil de negocio do usuario.
+      operationId: save_user_business_profile
+      parameters:
+        - name: user_id
+          in: header
+          description: Codigo de identificacao univoca do usuario.
+          required: true
+          schema:
+            $ref: "@dialogflow/id_user"
+        - name: business_name
+          in: header
+          description: Nome do negocio do usuario.
+          required: true
+          schema:
+            $ref: "@dialogflow/business_name"
+        - name: business_description
+          in: header
+          description: Descricao do negocio do usuario.
+          required: true
+          schema:
+            $ref: "@dialogflow/business_description"
+        - name: career_id
+          in: header
+          description: Codigo de identificacao univoca da area ou ramo comercial do negocio do usuario.
+          required: true
+          schema:
+            $ref: "@dialogflow/career_id"
+        - name: career_name
+          in: header
+          description: Nome ou descricao da area ou ramo comercial do negocio do usuario.
+          required: true
+          schema:
+            $ref: "@dialogflow/career_name"
+      requestBody:
+        description: O parametro tambem pode ser passados atraves do corpo da request.
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                dados_extras:
+                  type: string
+      responses:
+        '200':
+          description: Tarefa concluida com sucesso.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  user_id:
+                    type: string
+                    example: {"status": "SUCCESS", "message": "Perfil de negocio foi atualizado na base de dados com sucesso."}
+

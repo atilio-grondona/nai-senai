@@ -1,0 +1,9 @@
+{
+  "name": "21b7b575-350a-4f3f-a717-ca8bc864af25",
+  "displayName": "retrieve-user-id",
+  "description": "Essa ferramenta deve pegar o user_id do playbook e buscar o histórico do usuário.",
+  "openApiSpec": {
+    "ignoreUnknownFields": true
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

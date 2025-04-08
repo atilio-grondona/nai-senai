@@ -1,0 +1,9 @@
+{
+  "name": "f58b7bd6-0342-4433-bea8-defbb5e8446b",
+  "displayName": "get_buss_prof",
+  "description": "- Esta ferramenta tem como objetivo principal verificar se um determinado perfil de negócio está cadastrada na base de dados do SENAI, ou não.\n- A ferramenta utiliza utiliza uma API que recebe como parâmetro de entrada o código de identificação unívoca do usuário (\"user_id\") e verifica se o perfil de negócio do usuário está cadastrado na base de dados.\n- A resposta da API pode ser um de dois de tipos possíveis a saber:\n    - Tipo 1: Uma lista vazia, por exemplo \"[]\". Neste caso, o perfil de negócio não pôde ser verificado ou não está cadastrado na base de dados;\n    - Tipo 2: Uma lista contendo quatro \"strings\", por exemplo: \"['TecnoInfo LTDA', 'Desenvolvimento de Sistemas', '18', 'Empresa de desenvolvimento de sistemas de administração de video locadoras.']\". Neste caso, os strings representam o nome do negócio, o nome da área de negócio, o número inteiro de identificação unívoca da área de negócio e a descrição resumida do negócio, respectivamente. Copie o nome do negócio para o parâmetro denominado \"buss_name\", copie o nome da área de negócio para o parâmetro denominado \"buss_area_name\", o número de identificação unívoca da área de negócio para o parâmetro denominado \"buss_area_id\" e copie a descrição resumida do negócio para o parâmetro denominado \"buss_description\". Estes mantenha estes parâmetros em memória pois poderão ser utilizados mais tarde.",
+  "openApiSpec": {
+    "ignoreUnknownFields": true
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

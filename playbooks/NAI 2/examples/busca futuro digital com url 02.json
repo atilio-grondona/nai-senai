@@ -1,0 +1,38 @@
+{
+  "name": "d51d4353-6859-4589-873d-086ccf195e47",
+  "actions": [ {
+    "userUtterance": {
+      "text": "quero aprender java"
+    }
+  }, {
+    "toolUse": {
+      "tool": "busca_futuro_digital",
+      "action": "futuroDigitalUserSearch",
+      "inputActionParameters": {
+        "requestBody": {
+          "text": "java"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "courses": [ [ "4701", "Programação em Linguagem JAVA\r\n", "https://www.futuro.digital/DN-Programacao-em-Linguagem-JAVA-APE094-188-40h/p?utm_source=busca" ] ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Aqui estão alguns cursos que podem te interessar:\n\nCurso 1: Programação em Linguagem JAVA \u003cbutton data-url=\"https://www.futuro.digital/DN-Programacao-em-Linguagem-JAVA-APE094-188-40h/p?utm_source=busca\"\u003eCód.: 4701\u003c/button\u003e\n\nQue tal explorar algum deles?\""
+    }
+  } ],
+  "playbookOutput": {
+    "executionSummary": "o agente disponibilizou as informações corretas",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "busca futuro digital com url 02",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 309,
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "pt-br"
+}

@@ -1,0 +1,74 @@
+{
+  "name": "d90d8568-99e9-498f-938b-240026d01fef",
+  "actions": [ {
+    "userUtterance": {
+      "text": "ola"
+    }
+  }, {
+    "toolUse": {
+      "tool": "retrieve-user-id",
+      "action": "create_json_update_user_data",
+      "inputActionParameters": {
+        "requestBody": {
+          "session_id": ""
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "message": "Estamos analisando se você tem dados salvos já! Tudo certo!",
+          "transcript": "",
+          "user_id": "53deb7-ebd-47f-187-559a66d96"
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Ola. eu sou a Nai"
+    }
+  }, {
+    "userUtterance": {
+      "text": "fazer perfil"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "NAI_MODULO_PERFIL_PROFISSIONAL (2025-02-14 12:30:50)",
+      "playbookInput": {
+        "precedingConversationSummary": "o usuário mostrou intenção de fazer o perfil",
+        "actionParameters": {
+          "user_id": {
+            "user_id": "924e1b-8db-d41-97d-2efb4da04"
+          }
+        }
+      },
+      "playbookOutput": {
+        "executionSummary": "usuário mostrou intenção de fazer o perfil, e tb perguntou o user_id",
+        "actionParameters": {
+          "user_id": {
+            "user_id": "924e1b-8db-d41-97d-2efb4da04"
+          }
+        }
+      },
+      "playbookState": "OUTPUT_STATE_OK"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Vamos fazer seu perfil"
+    }
+  }, {
+    "userUtterance": {
+      "text": "qual o meu user_id"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Seu user_id é 53deb7-ebd-47f-187-559a66d96."
+    }
+  } ],
+  "playbookOutput": {
+    "executionSummary": "usuário mostrou intenção de fazer o perfil, e tb perguntou o user_id"
+  },
+  "displayName": "Consulta user_id",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 484,
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "pt-br"
+}

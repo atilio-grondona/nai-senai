@@ -1,0 +1,75 @@
+{
+  "name": "07eac7ad-819e-42bf-9df4-daf4c6951a62",
+  "actions": [ {
+    "userUtterance": {
+      "text": "ola "
+    }
+  }, {
+    "toolUse": {
+      "tool": "retrieve-user-id",
+      "action": "create_json_update_user_data",
+      "inputActionParameters": {
+        "requestBody": {
+          "dados_extras": ""
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "message": "Estamos analisando se você tem dados salvos já! Tudo certo!",
+          "transcript": "",
+          "user_id": "3331c133-3028-41b6-9186-d5fb207b5662"
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Olá! Seja bem-vindo(a) ao SENAI. Meu nome é NAI, e sou a assistente virtual oficial do SENAI. Estou aqui para te ajudar com informações sobre sua carreira, empregabilidade e na construção do seu perfil profissional ou de negócio. Como posso te ajudar hoje?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "quero fazer meu perfil"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Ótimo! Você deseja criar um perfil profissional ou um perfil de negócio?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "profissional"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "NAI_MODULO_PERFIL_PROFISSIONAL (2025-02-14 12:30:50)",
+      "playbookInput": {
+        "actionParameters": {
+        
+        }
+      },
+      "playbookOutput": {
+        "state": "OK",
+        "actionParameters": {
+        
+        }
+      },
+      "playbookState": "OUTPUT_STATE_OK"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Perfeito! Vamos criar seu perfil profissional.  Verifiquei que você não possui informações salvas anteriormente.  Preparado(a) para começarmos?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "sim"
+    }
+  } ],
+  "playbookOutput": {
+    "executionSummary": "o usuario foi transferido para o perfil profissional 2",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "transicao_perfil_prof",
+  "tokenCount": 482,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "pt-br"
+}

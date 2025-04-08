@@ -1,0 +1,108 @@
+{
+  "name": "d39c2877-3545-4694-92d5-806ed73e5657",
+  "actions": [ {
+    "agentUtterance": {
+      "text": " Agora, para te ajudar a construir um perfil profissional incrível, você prefere que eu faça perguntas diretas sobre sua trajetória ou que você me conte sua história de forma mais livre? 🤔"
+    }
+  }, {
+    "userUtterance": {
+      "text": "vou te contar minha história"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Que ótimo! 🤩  Adoro ouvir histórias! Conte-me tudo sobre sua trajetória profissional, desde o início até onde você se encontra hoje. Quais foram os momentos mais importantes, os desafios que você superou e os aprendizados que você carrega? 😊"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Me chamo Paulo Silva e sou cientista de dados sênior, com mais de 10 anos de experiência na área de análise de dados e soluções baseadas em machine learning. Minha trajetória profissional combina expertise técnica, inovação e uma busca constante por novos conhecimentos.  Minha formação acadêmica inclui uma graduação em Engenharia da Computação pela Universidade Federal de Minas Gerais (UFMG) e uma pós-graduação em Inteligência Artificial pela Universidade de São Paulo (USP). Essas bases acadêmicas foram complementadas por certificações reconhecidas no mercado, como a \"Google Professional Data Engineer\", \"Microsoft Certified: Azure Data Scientist Associate\" e \"AWS Certified Machine Learning – Specialty\".  Minha experiência profissional se divide em três principais etapas:  1. **Analista de Dados na Empresa TechData (2013-2017)**: Minha primeira experiência significativa foi na TechData, onde trabalhei no desenvolvimento de dashboards para monitoramento de KPIs e na criação de relatórios automatizados para diferentes áreas da empresa. Aqui, aprendi a aplicar técnicas de ETL e a utilizar ferramentas como SQL, Tableau e Power BI para transformar dados em insights.  2. **Cientista de Dados na DataInsights (2017-2021)**: Na DataInsights, tive a oportunidade de liderar projetos de modelagem preditiva e aprendizado de máquina. Desenvolvi soluções para previsão de demanda, segmentação de clientes e detecção de fraudes. Durante esse período, aprofundei meus conhecimentos em Python, R e bibliotecas como TensorFlow e PyTorch.  3. **Cientista de Dados Sênior na InnovAI (2021-Presente)**: Atualmente, atuo como cientista de dados sênior na InnovAI, uma startup focada em soluções de inteligência artificial. Lidero equipes multidisciplinares em projetos que envolvem processamento de linguagem natural, análise de séries temporais e integração de modelos preditivos em ambientes de produção. Também colaboro no desenvolvimento de arquiteturas em nuvem para escalabilidade de modelos.  Ao longo da minha carreira, tenho me dedicado a estar sempre atualizado com as tendências tecnológicas e avanços na área de dados. Minhas certificações e experiências práticas me permitem trabalhar de forma eficiente com tecnologias de ponta, ajudando empresas a tomar decisões baseadas em dados e a otimizar seus processos.  Sou apaixonado pelo que faço e sempre busco novos desafios que me permitam crescer e contribuir com soluções inovadoras e impactantes. Meu objetivo é continuar liderando projetos de alta complexidade e mentorando equipes, enquanto exploro novas fronteiras na área de ciência de dados."
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Nossa, Paulo, que trajetória incrível! 🤩  É admirável sua paixão por ciência de dados e sua busca constante por conhecimento.  Sua história demonstra uma expertise impressionante, desde a formação acadêmica sólida até as experiências práticas em empresas de ponta.  Você realmente se destaca como um profissional de alto nível!  Para que eu possa construir um resumo completo do seu perfil, me fale um pouco sobre suas habilidades técnicas e comportamentais. Quais são seus pontos fortes e o que te motiva a buscar novos desafios? 😊"
+    }
+  }, {
+    "userUtterance": {
+      "text": "sem mais informações para fornecer"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Tudo bem, Paulo! 😊  Com base em sua história, já consigo ter uma ideia clara de seu perfil profissional.  Vou organizar as informações em um resumo e te mostrar.  Depois, você pode me dizer se precisa de alguma alteração.  O que acha? 😉"
+    }
+  }, {
+    "userUtterance": {
+      "text": "aguardo sim"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Perfeito! 😊  Então vamos lá:\n\n## Resumo Estruturado de Paulo Silva\n\n- **Resumo Profissional:** Paulo Silva é um cientista de dados sênior com mais de 10 anos de experiência em análise de dados e soluções de machine learning. Sua trajetória combina expertise técnica, inovação e busca constante por novos conhecimentos. Ele possui uma sólida formação acadêmica em Engenharia da Computação e Inteligência Artificial, complementada por certificações de renome no mercado. Sua experiência abrange projetos de modelagem preditiva, análise de dados, desenvolvimento de dashboards e integração de modelos em ambientes de produção. Paulo é apaixonado por ciência de dados e busca liderar projetos desafiadores, explorando novas fronteiras e mentorando equipes.\n\n- **Formação Acadêmica:**\n    - Engenharia da Computação, Universidade Federal de Minas Gerais (UFMG)\n    - Pós-graduação em Inteligência Artificial, Universidade de São Paulo (USP)\n\n- **Certificações:**\n    - Google Professional Data Engineer\n    - Microsoft Certified: Azure Data Scientist Associate\n    - AWS Certified Machine Learning – Specialty\n\n- **Experiências Profissionais:**\n    - **Analista de Dados na Empresa TechData (2013-2017):** Desenvolvimento de dashboards, relatórios automatizados, aplicação de técnicas de ETL, SQL, Tableau e Power BI.\n    - **Cientista de Dados na DataInsights (2017-2021):** Liderança em projetos de modelagem preditiva e aprendizado de máquina, soluções para previsão de demanda, segmentação de clientes e detecção de fraudes, Python, R, TensorFlow e PyTorch.\n    - **Cientista de Dados Sênior na InnovAI (2021-Presente):** Liderança de equipes multidisciplinares em projetos de processamento de linguagem natural, análise de séries temporais e integração de modelos preditivos, desenvolvimento de arquiteturas em nuvem.\nO que você acha? Precisa de alguma alteração? 😉"
+    }
+  }, {
+    "userUtterance": {
+      "text": "finalizou?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Sim, Paulo! 😊  O resumo está pronto.  Agora, para que ele fique disponível para você sempre que precisar, preciso salvar as informações.  Você confirma que está tudo certo? 😉"
+    }
+  }, {
+    "userUtterance": {
+      "text": "não precisa de alteração nenhuma"
+    }
+  }, {
+    "toolUse": {
+      "tool": "persistir_dados_cv (2025-02-14 12:30:50)",
+      "action": "create_json_update_user_data",
+      "inputActionParameters": {
+        "requestBody": {
+          "resumo_estruturado": "## Resumo Estruturado de Paulo Silva\n\n- **Resumo Profissional:** Paulo Silva é um cientista de dados sênior com mais de 10 anos de experiência em análise de dados e soluções de machine learning. Sua trajetória combina expertise técnica, inovação e busca constante por novos conhecimentos. Ele possui uma sólida formação acadêmica em Engenharia da Computação e Inteligência Artificial, complementada por certificações de renome no mercado. Sua experiência abrange projetos de modelagem preditiva, análise de dados, desenvolvimento de dashboards e integração de modelos em ambientes de produção. Paulo é apaixonado por ciência de dados e busca liderar projetos desafiadores, explorando novas fronteiras e mentorando equipes.\n\n- **Formação Acadêmica:**\n    - Engenharia da Computação, Universidade Federal de Minas Gerais (UFMG)\n    - Pós-graduação em Inteligência Artificial, Universidade de São Paulo (USP)\n\n- **Certificações:**\n    - Google Professional Data Engineer\n    - Microsoft Certified: Azure Data Scientist Associate\n    - AWS Certified Machine Learning – Specialty\n\n- **Experiências Profissionais:**\n    - **Analista de Dados na Empresa TechData (2013-2017):** Desenvolvimento de dashboards, relatórios automatizados, aplicação de técnicas de ETL, SQL, Tableau e Power BI.\n    - **Cientista de Dados na DataInsights (2017-2021):** Liderança em projetos de modelagem preditiva e aprendizado de máquina, soluções para previsão de demanda, segmentação de clientes e detecção de fraudes, Python, R, TensorFlow e PyTorch.\n    - **Cientista de Dados Sênior na InnovAI (2021-Presente):** Liderança de equipes multidisciplinares em projetos de processamento de linguagem natural, análise de séries temporais e integração de modelos preditivos, desenvolvimento de arquiteturas em nuvem.",
+          "user_id": "58cb7341-9bc8-4bb2-b02b-bccca4b17343"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "message": "Os dados foram salvos com sucesso!",
+          "status": "success"
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Perfeito, Paulo! 😊  Seus dados foram salvos com sucesso! 🎉  Agora, você deseja criar um perfil de negócios? 🚀  "
+    }
+  }, {
+    "userUtterance": {
+      "text": "qual o meu user_id?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "seu user_id é [user_id]"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "Antes estava na página inicial da NAI.",
+    "actionParameters": {
+      "transcript": {
+        "transcript": " transcrição de um audio: sou formado em administração e tenho experiencia em contabilidade no setor de transportes"
+      },
+      "user_id": {
+        "user_id": "58cb7341-9bc8-4bb2-b02b-bccca4b17343"
+      }
+    }
+  },
+  "playbookOutput": {
+    "executionSummary": "Persistir no bando de dados o json gerado com base no resumo estruturado da NAI.",
+    "actionParameters": {
+      "resumo_estruturado": {
+        "resumo_estruturado": "## Resumo Estruturado de Paulo Silva\n\n- **Resumo Profissional:** Paulo Silva é um cientista de dados sênior com mais de 10 anos de experiência em análise de dados e soluções de machine learning. Sua trajetória combina expertise técnica, inovação e busca constante por novos conhecimentos. Ele possui uma sólida formação acadêmica em Engenharia da Computação e Inteligência Artificial, complementada por certificações de renome no mercado. Sua experiência abrange projetos de modelagem preditiva, análise de dados, desenvolvimento de dashboards e integração de modelos em ambientes de produção. Paulo é apaixonado por ciência de dados e busca liderar projetos desafiadores, explorando novas fronteiras e mentorando equipes.\n\n- **Formação Acadêmica:**\n    - Engenharia da Computação, Universidade Federal de Minas Gerais (UFMG)\n    - Pós-graduação em Inteligência Artificial, Universidade de São Paulo (USP)\n\n- **Certificações:**\n    - Google Professional Data Engineer\n    - Microsoft Certified: Azure Data Scientist Associate\n    - AWS Certified Machine Learning – Specialty\n\n- **Experiências Profissionais:**\n    - **Analista de Dados na Empresa TechData (2013-2017):** Desenvolvimento de dashboards, relatórios automatizados, aplicação de técnicas de ETL, SQL, Tableau e Power BI.\n    - **Cientista de Dados na DataInsights (2017-2021):** Liderança em projetos de modelagem preditiva e aprendizado de máquina, soluções para previsão de demanda, segmentação de clientes e detecção de fraudes, Python, R, TensorFlow e PyTorch.\n    - **Cientista de Dados Sênior na InnovAI (2021-Presente):** Liderança de equipes multidisciplinares em projetos de processamento de linguagem natural, análise de séries temporais e integração de modelos preditivos, desenvolvimento de arquiteturas em nuvem."
+      },
+      "user_id": {
+        "user_id": "58cb7341-9bc8-4bb2-b02b-bccca4b17343"
+      }
+    }
+  },
+  "displayName": "fluxo completo funcional",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 2693,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "pt-br"
+}

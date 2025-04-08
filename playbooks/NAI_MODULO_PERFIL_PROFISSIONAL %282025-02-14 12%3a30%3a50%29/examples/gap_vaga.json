@@ -1,0 +1,73 @@
+{
+  "name": "e06cbb34-6e0b-4f88-b589-7913e059f785",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "Olá José! Com base na transcrição do seu currículo, já tenho um bom resumo do seu perfil profissional. Posso te mostrar e salvar as informações?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "gerar resumo apenas"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Ok, aqui está um resumo do seu perfil profissional baseado na transcrição do seu currículo:\n\n**Resumo Profissional:** Advogado com 10 anos de experiência em diversas áreas do Direito, especializado em Direito Empresarial e Contratual.  Experiência em assessoria jurídica, negociações, resolução de conflitos, contencioso cível e empresarial, processos trabalhistas e tributários, direito do consumidor e responsabilidade civil.  Proficiência em redação e revisão de contratos, condução de processos e negociações complexas, mediação e arbitragem.  Formação acadêmica sólida, incluindo mestrado em Direito Contratual.  Certificações em Arbitragem e Mediação, Compliance e Governança Corporativa, e LGPD. Fluente em português, inglês, espanhol e francês. Busca oportunidades para contribuir com sua expertise na defesa de interesses corporativos e na elaboração de estratégias jurídicas eficazes.\n\n**Formação Acadêmica:** Bacharelado em Direito (UNAJ), Pós-graduação em Direito Empresarial (IBEJ), Mestrado em Direito Contratual (UEA).\n\n**Experiência Profissional:** Ferreira \u0026 Braga Advogados (Advogado Pleno), Escritório Cardoso \u0026 Lima (Advogado Júnior).\n\n**Habilidades:**  Liderança, gestão de equipe, pensamento estratégico, resolução de problemas, negociação, argumentação, comunicação interpessoal, redação e revisão de contratos, conhecimento profundo em legislação empresarial e tributária, mediação e arbitragem, análise e elaboração de pareceres jurídicos.\n\n**Certificações:** Curso Avançado de Arbitragem e Mediação (ESA), Compliance e Governança Corporativa (Harvard Law School Online), LGPD e Proteção de Dados (IBDD).\n\n**Idiomas:** Português (Nativo), Inglês (Fluente), Espanhol (Fluente), Francês (Fluente).\n\nEste resumo precisa de alguma alteração?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "qual o meu gap"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Para avaliar seus gaps, preciso de mais informações. Você deseja avaliar gaps em relação a uma vaga específica ou a uma área profissional?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "vaga"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Para identificar seus gaps em relação a uma vaga, preciso saber qual vaga você está considerando.  Por favor, me forneça o nome e a descrição da vaga."
+    }
+  }, {
+    "userUtterance": {
+      "text": "Advogado(a) - Contrato"
+    }
+  }, {
+    "toolUse": {
+      "tool": "retrieve_gap (2025-02-14 12:30:50)",
+      "action": "retrieve_gap_info",
+      "inputActionParameters": {
+        "requestBody": {
+          "gap_detalhe": "Advogado(a) - Contrato",
+          "gap_tipo": "gap_vaga",
+          "user_id": "6a1bfb19-8a21-4352-8493-6bcaac01a3d3"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "description": "[Conduzir a elaboração de contratos, Analisar e interpretar leis e regulamentos,Desenvolver e negociar termos contratuais, Gerenciar riscos jurídicos, Representar a empresa em processos judiciais e extrajudiciais, Tecnologia FinTech, Ambiente regulatório do setor financeiro, Metodologias de gestão de projetos]"
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Seus gaps para vaga são: \n- Conduzir a elaboração de contratos, \n-  Analisar e interpretar leis e regulamentos\n-  Desenvolver e negociar termos contratuais\n-  Gerenciar riscos jurídicos\n-  Representar a empresa em processos judiciais e extrajudiciais\n- Tecnologia FinTech\n-  Ambiente regulatório do setor financeiro\n-  Metodologias de gestão de projetos"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "O usuario entrou no fluxo de criação de perfil profissional, com um transcript preenchido",
+    "actionParameters": {
+    
+    }
+  },
+  "playbookOutput": {
+    "executionSummary": "O agente retornou o gap de acordo com o gap detalhe (vaga) perguntado pelo usuário",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "gap_vaga",
+  "tokenCount": 1011,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "pt-br"
+}

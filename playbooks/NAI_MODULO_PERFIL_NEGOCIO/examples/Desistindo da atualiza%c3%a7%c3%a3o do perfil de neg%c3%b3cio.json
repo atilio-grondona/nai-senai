@@ -1,0 +1,39 @@
+{
+  "name": "cae49475-0f9f-46a8-853b-8589f2823f81",
+  "actions": [ {
+    "toolUse": {
+      "tool": "get_buss_prof",
+      "action": "read_user_business_profile",
+      "inputActionParameters": {
+        "requestBody": {
+          "user_id": "6112af06-8654-4842-a862-120f38d16cc9"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "message": "[[1, 'Proteção e Reabilitação de Ecossistema']]",
+          "status": "SUCCESS"
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "OK. Percebi que você já tem um perfil de negócio cadastrado. Então, vamos atualizá-lo juntos!\n\n"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Não desejo mais prosseguir"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "O usuário deseja atualizar o perfil do seu negócio, empreendimento comercial ou \"business\". Neste ponto, código de identificação unívoca do usuário está armazenada em memória (contexto) pelo nome \"user_id\"."
+  },
+  "playbookOutput": {
+    "executionSummary": "O usuário não deseja mais atualizar perfil do seu negócio"
+  },
+  "displayName": "Desistindo da atualização do perfil de negócio",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 276,
+  "conversationState": "OUTPUT_STATE_CANCELLED",
+  "languageCode": "pt-br"
+}

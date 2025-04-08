@@ -1,0 +1,39 @@
+{
+  "name": "e8a32e91-b877-42fe-92fb-47f05a479f81",
+  "actions": [ {
+    "userUtterance": {
+      "text": "ola"
+    }
+  }, {
+    "toolUse": {
+      "tool": "retrieve-user-id",
+      "action": "create_json_update_user_data",
+      "inputActionParameters": {
+        "requestBody": {
+          "session_id": ""
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "message": "Estamos analisando se você tem dados salvos já! Tudo certo!",
+          "transcript": "## Currículo de José Alves **Informações Pessoais** * Nome: José Alves * Telefone: (11) 99999-9999 * E-mail: jose.alves.adv@email.com * LinkedIn: linkedin.com/in/josealves **Objetivo Profissional** Advogado com 10 anos de experiência, atuando em diversas áreas do Direito. Especialista em Direito Empresarial e Contratual, com forte vivência em assessoria jurídica, negociações e resolução de conflitos. Busco oportunidades para contribuir com minha expertise na defesa de interesses corporativos e na elaboração de estratégias jurídicas eficazes. **Formação Acadêmica** * Bacharelado em Direito - Universidade Nacional de Jurisprudência (UNAJ) - 2009 - 2014 * Pós-Graduação em Direito Empresarial - Instituto Brasileiro de Estudos Jurídicos (IBEJ) - 2015 - 2016 * Mestrado em Direito Contratual - Universidade de Estudos Avançados (UEA) - 2017 - 2019 **Experiência Profissional** * **Ferreira \u0026 Braga Advogados**     * Cargo: Advogado Pleno     * Período: 2017 - 2020     * Responsabilidades:         * Atuação em contencioso cível e empresarial.         * Defesa de clientes em processos trabalhistas e tributários.         * Desenvolvimento de pareceres jurídicos para casos de grande relevância. * **Escritório Cardoso \u0026 Lima**     * Cargo: Advogado Júnior     * Período: 2014 - 2017     * Responsabilidades:         * Atuação no Direito do Consumidor e Responsabilidade Civil.         * Representação de clientes em audiências e processos administrativos.         * Análise e revisão de contratos comerciais. **Áreas de Atuação** * Direito Empresarial * Direito Contratual * Direito Civil * Direito Tributário * Mediação e Arbitragem **Certificações e Cursos Complementares** * Curso Avançado de Arbitragem e Mediação - Escola Superior de Advocacia (ESA) - 2021 * Compliance e Governança Corporativa - Harvard Law School (Online) - 2020 * LGPD e Proteção de Dados - Instituto Brasileiro de Direito Digital (IBDD) - 2019 **Idiomas** * Português: Nativo * Inglês: Fluente * Espanhol: Fluente * Francês: Fluente **Habilidades Técnicas (Hard Skills)** * Redação e revisão de contratos jurídicos * Condução de processos e negociações complexas * Conhecimento profundo em legislação empresarial e tributária * Atuação em mediação e arbitragem * Análise e elaboração de pareceres jurídicos **Habilidades Comportamentais (Soft Skills)** * Liderança e gestão de equipe * Pensamento estratégico e resolução de problemas * Capacidade de negociação e argumentação * Adaptação a cenários dinâmicos e desafiadores * Excelente comunicação interpessoal **Pontos Fortes** * Visão estratégica para soluções jurídicas eficientes. * Foco em resultados e soluções inovadoras para desafios legais. * Capacidade de liderar e orientar equipes jurídicas com alta performance. * Facilidade na negociação e mediação de conflitos empresariais.  ## Currículo de José Alves **Informações Pessoais** Nome: José Alves Telefone: (11) 99999-9999 E-mail: jose.alves.adv@email.com LinkedIn: linkedin.com/in/josealves **Objetivo Profissional** Advogado com 10 anos de experiência, atuando em diversas áreas do Direito. Especialista em Direito Empresarial e Contratual, com forte vivência em assessoria jurídica, negociações e resolução de conflitos. Busco oportunidades para contribuir com minha expertise na defesa de interesses corporativos e na elaboração de estratégias jurídicas eficazes. **Formação Acadêmica** - Bacharelado em Direito - Universidade Nacional de Jurisprudência (UNAJ) - 2009 - 2014 - Pós-Graduação em Direito Empresarial - Instituto Brasileiro de Estudos Jurídicos (IBEJ) - 2015 - 2016 - Mestrado em Direito Contratual - Universidade de Estudos Avançados (UEA) - 2017 - 2019 **Experiência Profissional** - **Ferreira \u0026 Braga Advogados**     - Cargo: Advogado Pleno     - Período: 2017 - 2020     - Responsabilidades:         - Atuação em contencioso cível e empresarial.         - Defesa de clientes em processos trabalhistas e tributários.         - Desenvolvimento de pareceres jurídicos para casos de grande relevância. - **Escritório Cardoso \u0026 Lima**     - Cargo: Advogado Júnior     - Período: 2014 - 2017     - Responsabilidades:         - Atuação no Direito do Consumidor e Responsabilidade Civil.         - Representação de clientes em audiências e processos administrativos.         - Análise e revisão de contratos comerciais. **Áreas de Atuação** - Direito Empresarial - Direito Contratual - Direito Civil - Direito Tributário - Mediação e Arbitragem **Certificações e Cursos Complementares** - Curso Avançado de Arbitragem e Mediação - Escola Superior de Advocacia (ESA) - 2021 - Compliance e Governança Corporativa - Harvard Law School (Online) - 2020 - LGPD e Proteção de Dados - Instituto Brasileiro de Direito Digital (IBDD) - 2019 **Idiomas** - Português: Nativo - Inglês: Fluente - Espanhol: Fluente - Francês: Fluente **Habilidades Técnicas (Hard Skills)** - Redação e revisão de contratos jurídicos - Condução de processos e negociações complexas - Conhecimento profundo em legislação empresarial e tributária - Atuação em mediação e arbitragem - Análise e elaboração de pareceres jurídicos **Habilidades Comportamentais (Soft Skills)** - Liderança e gestão de equipe - Pensamento estratégico e resolução de problemas - Capacidade de negociação e argumentação - Adaptação a cenários dinâmicos e desafiadores - Excelente comunicação interpessoal **Pontos Fortes** - Visão estratégica para soluções jurídicas eficientes. - Foco em resultados e soluções inovadoras para desafios legais. - Capacidade de liderar e orientar equipes jurídicas com alta performance. - Facilidade na negociação e mediação de conflitos empresariais. ",
+          "user_id": "d3d0fea5-9cd9-4a9d-a39b-bb62c576a64a"
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Olá! Seja bem-vindo(a) ao SENAI. Meu nome é NAI, e sou a assistente virtual oficial do SENAI. Estou aqui para te ajudar com informações sobre sua carreira, empregabilidade e na construção do seu perfil profissional. Como posso te ajudar hoje?"
+    }
+  } ],
+  "playbookOutput": {
+    "executionSummary": "O agente retornou as informações esperadas após a saudação.",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Nai_intro",
+  "tokenCount": 1703,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "pt-br"
+}

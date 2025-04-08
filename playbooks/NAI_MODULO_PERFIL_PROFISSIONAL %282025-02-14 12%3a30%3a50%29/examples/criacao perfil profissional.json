@@ -1,0 +1,92 @@
+{
+  "name": "e67410c3-3bb5-4074-917e-d711f635b1a3",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "Olá! Vamos construir seu perfil profissional. Você prefere responder a perguntas diretas ou me contar sua história profissional de forma mais livre?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "mais livre"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Ótimo! Conte-me sobre sua trajetória profissional. Quais foram os momentos mais importantes, os desafios que você superou e os aprendizados que você carrega?  Quais são seus objetivos de carreira?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "sou formado em adm e possuo 30 anos de experiencia no varejo como gerente de lojas, trabalhei em marcas grande como arezzo e reserva. atualmente quero trabalhar como gerente de franquias. tenho habilidades de comunicação e liderança e certificados de cloud do gcp"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Que experiência incrível no varejo, parabéns! 30 anos à frente de lojas de marcas tão conceituadas demonstram muita expertise.  Para construir um perfil completo, preciso de algumas informações adicionais.  Você poderia me detalhar um pouco mais sobre suas experiências na Arezzo e na Reserva? Quais foram seus principais desafios e conquistas em cada empresa?  E sobre os certificados do GCP, quais são eles especificamente?  Quais habilidades você considera mais relevantes para a posição de gerente de franquias?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "quero fazer o resumo agora"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Ok! Com base nas informações fornecidas, aqui está um resumo do seu perfil profissional:\n\n**Resumo Profissional:** Profissional com 30 anos de experiência em gestão de lojas no varejo, com passagens por marcas renomadas como Arezzo e Reserva.  Habilidades em comunicação e liderança comprovadas. Certificações em Cloud Computing do Google Cloud Platform (GCP). Busca oportunidade como Gerente de Franquias.\n\n**Formação Acadêmica:** Administração\n\n**Experiência Profissional:** 30 anos de experiência em gestão de lojas no varejo (detalhes a serem adicionados).\n\n**Habilidades:** Comunicação, Liderança.\n\n**Certificações:** Certificações em Cloud Computing (GCP - detalhes a serem adicionados).\n\nEste resumo é um ponto de partida. Para melhorá-lo, preciso de mais detalhes sobre suas experiências na Arezzo e Reserva, seus desafios e conquistas, e os nomes específicos de suas certificações GCP.  Você deseja adicionar essas informações agora ou prefere deixar para depois?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "esta tudo certo"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Ótimo! Agora, vamos salvar seu resumo. Você confirma que podemos seguir em frente, e salvar seus dados?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Sim, confirmo"
+    }
+  }, {
+    "toolUse": {
+      "tool": "persistir_dados_cv (2025-02-14 12:30:50)",
+      "action": "create_json_update_user_data",
+      "inputActionParameters": {
+        "requestBody": {
+          "resumo_estruturado": "**Resumo Profissional:** Profissional com 30 anos de experiência em gestão de lojas no varejo, com passagens por marcas renomadas como Arezzo e Reserva.  Habilidades em comunicação e liderança comprovadas. Certificações em Cloud Computing do Google Cloud Platform (GCP). Busca oportunidade como Gerente de Franquias.\n\n**Formação Acadêmica:** Administração\n\n**Experiência Profissional:** 30 anos de experiência em gestão de lojas no varejo (detalhes a serem adicionados).\n\n**Habilidades:** Comunicação, Liderança.\n\n**Certificações:** Certificações em Cloud Computing (GCP - detalhes a serem adicionados).",
+          "user_id": "4e7d1661-5d8d-4335-80bd-142b7242bcc6"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "message": "Os dados foram salvos com sucesso!",
+          "status": "success"
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Ok! Seus dados foram salvos."
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "O agente orienta o usuário a fazer a criação do perfil profissional. O usuário não tem informação na variável transcript",
+    "actionParameters": {
+      "transcript": {
+        "transcript": " "
+      },
+      "user_id": {
+        "user_id": "58cb7341-9bc8-4bb2-b02b-bccca4b17343"
+      }
+    }
+  },
+  "playbookOutput": {
+    "executionSummary": "O Agente orientou o usuário para construção do perfil e depois salvou as informações do resumo",
+    "actionParameters": {
+      "resumo_estruturado": {
+        "resumo_estruturado": "**Resumo Profissional:** Profissional com 30 anos de experiência em gestão de lojas no varejo, com passagens por marcas renomadas como Arezzo e Reserva.  Habilidades em comunicação e liderança comprovadas. Certificações em Cloud Computing do Google Cloud Platform (GCP). Busca oportunidade como Gerente de Franquias. **Formação Acadêmica:** Administração **Experiência Profissional:** 30 anos de experiência em gestão de lojas no varejo (detalhes a serem adicionados).**Habilidades:** Comunicação, Liderança.  **Certificações:** Certificações em Cloud Computing (GCP - detalhes a serem adicionados)"
+      },
+      "user_id": {
+        "user_id": "58cb7341-9bc8-4bb2-b02b-bccca4b17343"
+      }
+    }
+  },
+  "displayName": "criacao perfil profissional",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 1218,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "pt-br"
+}

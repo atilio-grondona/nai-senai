@@ -1,0 +1,43 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+    
+    },
+    "name": "2a23544a-d1f2-44e9-9db5-8edd17a49e2a",
+    "targetPlaybook": "NAI 2",
+    "description": "Esta rota é acionada quando o usuário inicia a interação com uma saudação, direcionando para o cumprimento inicial e apresentação da NAI."
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "49ba279a-be2c-4dc6-adf8-56b74977bdb9",
+    "targetPlaybook": "NAI 2"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Lamento, mas não compreendi.", "Desculpe, mas não compreendi.", "Infelizmente, não captei o que deseja.", "Não consegui compreender, desculpe." ]
+        },
+        "languageCode": "pt-br"
+      } ]
+    },
+    "name": "4673ef59-92f6-4252-8d10-5b2a86b2ffff"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "customConfigKey": "af70aaa0-3820-430c-a7ca-74006f62f05b",
+    "languageCode": "pt-br"
+  } ]
+}

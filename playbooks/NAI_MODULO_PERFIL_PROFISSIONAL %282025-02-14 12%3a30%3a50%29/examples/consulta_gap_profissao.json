@@ -1,0 +1,73 @@
+{
+  "name": "c4e5852f-d349-495e-b846-afcc85e5e0b4",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "Olá! Seja bem-vindo(a) ao SENAI. Meu nome é NAI, e sou a assistente virtual oficial do SENAI. Estou aqui para te ajudar com informações sobre sua carreira, empregabilidade e na construção do seu perfil profissional. Como posso te ajudar hoje?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "quero fazer meu perfil"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Ótimo! Para construir seu perfil profissional, preciso de algumas informações.  Você prefere responder a algumas perguntas diretas ou me contar sua história profissional de forma mais livre?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "qual o meu gap"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "gaps em relação a uma profissão ou uma vaga específica?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Em relação a uma profissão."
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Qual profissão?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Dentista"
+    }
+  }, {
+    "toolUse": {
+      "tool": "retrieve_gap (2025-02-14 12:30:50)",
+      "action": "retrieve_gap_info",
+      "inputActionParameters": {
+        "requestBody": {
+          "gap_detalhe": "Dentista",
+          "gap_tipo": "gap_profissao",
+          "user_id": "6a1bfb19-8a21-4352-8493-6bcaac01a3d3"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "description": "[Analisar documentação de teste para planejamento da rotina,Aplicar as boas práticas para documentação de projetos, conforme as exigências de rastreabilidade,Aplicar boas práticas de segurança da informação,Aplicar boas práticas relativas à segurança da informação]"
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Seus gaps para a profissão são: \n- Analisar documentação de teste para planejamento da rotina\n-Aplicar as boas práticas para documentação de projetos, conforme as exigências de rastreabilidade\n- Aplicar boas práticas de segurança da informação\n- Aplicar boas práticas relativas à segurança da informação"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "O usuário pergunta sobre seu gap, após pedir para fazer o perfil",
+    "actionParameters": {
+    
+    }
+  },
+  "playbookOutput": {
+    "executionSummary": "O agente retornou o gap de acordo com o gap detalhe (profissão) perguntado pelo usuário",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "consulta_gap_profissao",
+  "tokenCount": 560,
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "pt-br"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "8a646872-c0f2-4288-abc0-a95ac06435c7",
+  "displayName": "busca_futuro_digital",
+  "description": "Quando o usuário solicitar ou falar que quer aprender sobre determinados temas  esta api busca cursos relacionados no futuro digital",
+  "openApiSpec": {
+    "authentication": {
+      "serviceAgentAuthConfig": {
+        "serviceAgentAuth": "ID_TOKEN"
+      }
+    },
+    "ignoreUnknownFields": true
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

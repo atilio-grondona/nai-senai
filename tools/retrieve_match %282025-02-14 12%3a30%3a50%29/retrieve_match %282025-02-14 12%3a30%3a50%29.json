@@ -1,0 +1,9 @@
+{
+  "name": "38a1b0a2-6a2f-4d3c-8c3d-678b5ad535b8",
+  "displayName": "retrieve_match (2025-02-14 12:30:50)",
+  "description": "Essa ferramenta tem como função buscar as informações de match de carreira, match de profissão, e match de vagas.",
+  "openApiSpec": {
+    "ignoreUnknownFields": true
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

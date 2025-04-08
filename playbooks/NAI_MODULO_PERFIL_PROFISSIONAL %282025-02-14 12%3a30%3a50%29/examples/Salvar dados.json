@@ -1,0 +1,81 @@
+{
+  "name": "1204f5a2-975c-43ad-bb6a-f56aa39f6da3",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "Perfeito! Para criar seu perfil, você prefere responder a perguntas diretas sobre sua experiência profissional ou prefere descrever sua trajetória de forma mais livre e narrativa?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "mais livre"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Ótimo! Conte-me sobre sua trajetória profissional.  Quais foram os momentos mais importantes, os desafios que você superou e os aprendizados que você carrega? Quais são seus objetivos de carreira?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "sou formado em adm e possuo 30 anos de experiencia no varejo como gerente de lojas, trabalhei em marcas grande como arezzo e reserva. atualmente quero trabalhar como gerente de franquias. tenho habilidades de comunicação e liderança e certificados de cloud do gcp"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Que experiência incrível no varejo! 30 anos à frente de lojas de marcas tão conceituadas demonstram muita expertise. Para construir um perfil completo, preciso de algumas informações adicionais. Você poderia me detalhar um pouco mais sobre suas experiências na Arezzo e na Reserva? Quais foram seus principais desafios e conquistas em cada empresa? E sobre os certificados do GCP, quais são eles especificamente? Quais habilidades você considera mais relevantes para a posição de gerente de franquias?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "fazer resumo"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Ok! Com base nas informações fornecidas, aqui está um resumo do seu perfil profissional:\n\n**Resumo Profissional:** Profissional com 30 anos de experiência em gestão de lojas no varejo, com passagens por marcas renomadas como Arezzo e Reserva. Habilidades em comunicação e liderança comprovadas. Certificações em Cloud Computing do Google Cloud Platform (GCP). Busca oportunidade como Gerente de Franquias.\n\n**Formação Acadêmica:** Administração\n\n**Experiência Profissional:** 30 anos de experiência em gestão de lojas no varejo (detalhes a serem adicionados).\n\n**Habilidades:** Comunicação, Liderança.\n\n**Certificações:** Certificações em Cloud Computing (GCP - detalhes a serem adicionados).\nEste resumo é um ponto de partida. Para melhorá-lo, preciso de mais detalhes sobre suas experiências na Arezzo e Reserva, seus desafios e conquistas, e os nomes específicos de suas certificações GCP. Você deseja adicionar essas informações agora ou prefere deixar para depois?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "esta tudo certo"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Ok! Então você me confirma que posso salvar suas informações?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Sim, confirmo."
+    }
+  }, {
+    "toolUse": {
+      "tool": "persistir_dados_cv (2025-02-14 12:30:50)",
+      "action": "create_json_update_user_data",
+      "inputActionParameters": {
+        "requestBody": {
+          "resumo_estruturado": "**Resumo Profissional:** Profissional com 30 anos de experiência em gestão de lojas no varejo, com passagens por marcas renomadas como Arezzo e Reserva. Habilidades em comunicação e liderança comprovadas. Certificações em Cloud Computing do Google Cloud Platform (GCP). Busca oportunidade como Gerente de Franquias.\n\n**Formação Acadêmica:** Administração\n\n**Experiência Profissional:** 30 anos de experiência em gestão de lojas no varejo (detalhes a serem adicionados - Arezzo e Reserva).\n\n**Habilidades:** Comunicação, Liderança.\n\n**Certificações:** Certificações em Cloud Computing Google Cloud Platform (GCP - detalhes a serem adicionados).",
+          "user_id": "2a34d87c-07fe-47a7-8fa5-f7f9c40e186d"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "message": "Os dados foram salvos com sucesso!",
+          "status": "success"
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Ótimo! Seus dados foram salvos com sucesso! 🎉  Seu perfil está pronto e disponível para acesso sempre que precisar.  Agora, você deseja criar um perfil de negócios?"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "O usuário manifestou o desejo de criar um perfil profissional e foi transferido para o playbook atual",
+    "actionParameters": {
+    
+    }
+  },
+  "playbookOutput": {
+    "executionSummary": "O agente guiou o usuario para a criação do perfil e no final executou corretamente o salvamento dos dados com a tool.",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Salvar dados",
+  "tokenCount": 1008,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "pt-br"
+}

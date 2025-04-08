@@ -1,0 +1,51 @@
+{
+  "displayName": "senai-bot-att",
+  "defaultLanguageCode": "pt-br",
+  "timeZone": "America/Buenos_Aires",
+  "enableLogging": true,
+  "projectNumber": 938951089222,
+  "speechToTextSettings": {
+  
+  },
+  "advancedSettings": {
+    "enabled": true,
+    "audioExportGcsDestination": {
+      "uri": "gs://cni-senai/short_audio_files"
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      },
+      "models": [ {
+        "key": "pt-br",
+        "value": "default"
+      } ]
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+      "enableInteractionLogging": true
+    },
+    "speechAdaptationSettings": {
+    
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "textToSpeechSettings": {
+  
+  },
+  "duplexSettings": {
+  
+  },
+  "answerFeedbackSettings": {
+  
+  },
+  "startPlaybook": "NAI 2",
+  "webClientSettings": {
+    "boxBorderRadius": "0"
+  }
+}

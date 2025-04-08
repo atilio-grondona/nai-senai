@@ -1,0 +1,40 @@
+openapi: 3.0.1
+info:
+  title: NAI - Busca area de negocio cadastrada na base de dados do SENAI
+  description: Busca area de negocio cadastrada na base de dados do SENAI
+  version: 1.0.0
+servers:
+  - url: 'https://us-central1-xertica-gen-ai-br.cloudfunctions.net/senai-read-business-career'
+paths:
+  /execute:
+    post:
+      summary: Busca area de negocio cadastrada na base de dados do SENAI
+      operationId: read_business_career
+      parameters:
+        - name: buss_area_name
+          in: header
+          description: Nome da area de negocio
+          required: true
+          schema:
+            $ref: "@dialogflow/buss_area_name"
+      requestBody:
+        description: O parametro tambem pode ser passados atraves do corpo da request.
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                dados_extras:
+                  type: string
+      responses:
+        '200':
+          description: Tarefa concluida com sucesso.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  user_id:
+                    type: string
+                    example: "['Proteção e Reabilitação de Ecossistema','Sistemas de Energia','Desenvolvimento de Sistemas']"

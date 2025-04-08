@@ -1,0 +1,41 @@
+openapi: 3.0.1
+info:
+  title: NAI - Busca perfil de negócio do usuário
+  description: Busca perfil de negócio do usuário
+  version: 1.0.0
+servers:
+  - url: 'https://us-central1-xertica-gen-ai-br.cloudfunctions.net/senai-read-business-profile'
+paths:
+  /execute:
+    post:
+      summary: Retorna o perfil de negocio do usuario.
+      operationId: read_user_business_profile
+      parameters:
+        - name: user_id
+          in: header
+          description: Codigo de identificacao univoca do usuario.
+          required: true
+          schema:
+            $ref: "@dialogflow/id_user"
+      requestBody:
+        description: O parametro tambem pode ser passados atraves do corpo da request.
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                dados_extras:
+                  type: string
+      responses:
+        '200':
+          description: Tarefa concluida com sucesso.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  user_id:
+                    type: string
+                    example: {"status": "SUCCESS", "message": "['d3d0fea5-9cd9-4a9d-a39b-bb62c576a64a', 'tecnologia brasilia - 2', 'Empresa de desenvolvimento de sistemas de administracao de video locadoras.', 18, 'Desenvolvimento de Sistemas']"}
+

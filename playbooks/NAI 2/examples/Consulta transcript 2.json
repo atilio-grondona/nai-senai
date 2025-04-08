@@ -1,0 +1,85 @@
+{
+  "name": "1392ce3b-8ae9-4253-84d4-4d99a40c93bf",
+  "actions": [ {
+    "userUtterance": {
+      "text": "ola"
+    }
+  }, {
+    "toolUse": {
+      "tool": "retrieve-user-id",
+      "action": "create_json_update_user_data",
+      "inputActionParameters": {
+        "requestBody": {
+          "session_id": ""
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "message": "Estamos analisando se você tem dados salvos já! Tudo certo!",
+          "transcript": "formado em estatistica e adm",
+          "user_id": "07b7b6-5ea-eb9-354-73dad7423"
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Olá! Seja bem-vindo(a) ao SENAI. Meu nome é NAI, e sou a assistente virtual oficial do SENAI. Estou aqui para te ajudar com informações sobre sua carreira, empregabilidade e na construção do seu perfil profissional. Como posso te ajudar hoje?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "quero fazer meu perfil"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "NAI_MODULO_PERFIL_PROFISSIONAL (2025-02-14 12:30:50)",
+      "playbookInput": {
+        "precedingConversationSummary": "O usuário demostrou interesse em fazer o pefil profissional, e nesse caso ele também possui informação no parametro transcript que será aproveitado para o playbook seguinte.",
+        "actionParameters": {
+        
+        }
+      },
+      "playbookOutput": {
+        "actionParameters": {
+          "transcript": {
+            "transcript": "formado em estatistica e adm"
+          }
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Verifiquei que você possui informações de um arquivo que enviou, essas informações podem ser úteis, deseja ve-las?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "sim"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "A informação do arquivo que enviou é \"formado em estatistica e adm\". Gostaria de usar essas informações para fazer seu perfil"
+    }
+  }, {
+    "userUtterance": {
+      "text": "sim"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Ok! Irei manter essas informações no contexto da nossa conversa. Agora, vou te direcionar para o módulo de Construção do Perfil Profissional, ok?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "ok"
+    }
+  } ],
+  "playbookOutput": {
+    "executionSummary": "Esse exemplo mostra que o parametro transcript foi recuperado e mostrado ao usuário corretamente",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Consulta transcript 2",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 568,
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "pt-br"
+}
